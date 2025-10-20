@@ -1,0 +1,75 @@
+*{  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin : 0;
+}
+
+main{
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    height: 100vh;
+    gap : 2em;
+    
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+}
+
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+li{
+    list-style: none;
+    border : solid transparent;
+    background-color: rgb(20, 20, 56);
+    margin: 2em .5em 2em 0;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Counter ul{
+    
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+.Counter ul li h2{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    
+
+}
+h1, h3{
+    margin-block: 1em;
+}
+
+p{
+    margin-block: 5em;
+}
+span{
+    font-size: .5em;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+}
+
+
+
